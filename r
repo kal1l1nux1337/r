@@ -365,7 +365,7 @@ do
         return
     else
         -- might as well place loaded notification here 
-        notif.Text = ('kali linux radar %s\n\nControls:\n[-]: zoom out     [+]: zoom in     [End]: exit script'):format(scriptver) -- [Home]: toggle radar 
+        notif.Text = ('oreo radar %s\n\nControls:\n[-]: zoom out     [+]: zoom in     [End]: exit script'):format(scriptver) -- [Home]: toggle radar 
         
         local gameWarning = gameNotes[thisId]
         
